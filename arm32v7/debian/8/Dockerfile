@@ -1,4 +1,5 @@
 FROM arm32v7/debian:jessie-slim
+COPY qemu-arm-static /usr/bin
 ENV \
   LANG="C.UTF-8" \
   LANGUAGE="C.UTF-8" \
